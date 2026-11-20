@@ -1,0 +1,59 @@
+body {
+  width: 1440px;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  width: 1128px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  margin: 24px auto;
+}
+
+.gallery-image {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+  width: 360px;
+  height: 200px;
+
+  transition: 250ms ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.04);
+}
